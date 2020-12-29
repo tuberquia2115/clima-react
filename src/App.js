@@ -46,7 +46,7 @@ function App() {
       }
     }
     consultarAPI();
-  }, [consulta])
+  }, [pais, ciudad, consulta])
 
   let componente;
   if (error) {
